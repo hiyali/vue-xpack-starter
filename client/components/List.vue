@@ -1,16 +1,14 @@
 <template>
-  <div class="counter-wrapper">
-    <div class="counter">
-      {{ count }}
-    </div>
-    <button @click="$store.commit('INCREMENT')">Increment</button>
-    <button @click="$store.commit('DECREMENT')">Decrement</button>
-    <button @click="$store.dispatch('incrementAsync')">Increment Async</button>
+  <div class='list-item'>
+    <span>{{title}}</span>
+    -
+    <span>{{text}}</span>
   </div>
 </template>
 
 <script>
 export default {
+  props: ['title', 'text'],
   computed: {
     count() {
       return this.$store.state.count
@@ -20,15 +18,6 @@ export default {
 </script>
 
 <style lang="stylus">
-.counter
-  cursor: pointer
-  margin: 100px auto
-  border-radius: 3px
-  width: 200px
-  height: 200px
-  text-align: center
-  line-height: 200px
-  font-size: 5rem
-  background-color: #f0f0f0
-  user-select: none
+.list-item
+  color: green
 </style>

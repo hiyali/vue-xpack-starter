@@ -1,15 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import { Home, User } from '../pages'
+import hooks from './hooks'
+import routes from './routes'
 
 Vue.use(Router)
 
-export default new Router({
+let router = new Router({
   mode: 'hash',
-  routes: [
-    { path: '/', redirect: 'index' },
-    { path: '/index', component: Home },
-    { path: '/user', component: User },
-  ]
+  routes
 })
+
+hooks(router)
+
+export default router

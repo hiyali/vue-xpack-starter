@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <list></list>
+    <list title='list compoent title' text='description'></list>
     <p>
       To get started, edit files in <code>./client</code> and save.
     </p>
