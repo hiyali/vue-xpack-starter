@@ -1,4 +1,3 @@
-
 const actions = {
   incrementAsync({commit}) {
     setTimeout(() => {

@@ -6,14 +6,27 @@
     <button @click="$store.commit('INCREMENT')">Increment</button>
     <button @click="$store.commit('DECREMENT')">Decrement</button>
     <button @click="$store.dispatch('incrementAsync')">Increment Async</button>
+    <button @click="getIndexData">get data</button>
   </div>
 </template>
 
 <script>
+
+import API from '../api'
+
 export default {
   computed: {
     count() {
       return this.$store.state.count
+    }
+  },
+  methods: {
+    getIndexData(){
+      API.indexPage.get({id: 1}).then( (res) => {
+        console.log(res)
+      }, (err) => {
+        console.warn(err)
+      })
     }
   }
 }

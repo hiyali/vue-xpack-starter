@@ -10,7 +10,9 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
   state,
   mutations,
-  actions
+  actions,
+  // getters, // 可以用getters来取state的稍加处理的结果
+  // modules, // 可以用modules来分割state,以免在全局状态中出现混淆
 })
 
 export default store

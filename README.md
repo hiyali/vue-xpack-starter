@@ -18,7 +18,9 @@ $ npm run build
 1. vue:
   * https://cn.vuejs.org/v2/guide
   * https://github.com/vuejs
-2. stylus: http://stylus-lang.com
-3. mint-ui: http://mint-ui.github.io
+2. vue-router: http://router.vuejs.org
+3. vue-resource: https://github.com/pagekit/vue-resource
+4. stylus: http://stylus-lang.com
+5. mint-ui: http://mint-ui.github.io
 
 
