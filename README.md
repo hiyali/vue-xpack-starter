@@ -1,4 +1,7 @@
 # vue-xpack-starter
+A vue webpack starter.
+It has: Vue / Vuex / Vue-router / Webpack / ES6 / PostCSS + Stylus
+> enjoy
 
 ## usage
 
@@ -17,7 +20,5 @@ $ npm run build
   * https://github.com/vuejs
 2. stylus: http://stylus-lang.com
 3. mint-ui: http://mint-ui.github.io
-
-#enjoy
 
 
