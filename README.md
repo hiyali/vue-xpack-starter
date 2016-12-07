@@ -1,9 +1,12 @@
 # vue-xpack-starter
 
 ```bash
-$ npm i > // start
-$ npm run dev > // develop
-$ npm run build > // for production
+> start
+$ npm i
+> develop
+$ npm run dev
+> for production
+$ npm run build
 ```
 
 # some links for project
