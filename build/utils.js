@@ -5,8 +5,8 @@ const config = require('./config')
 const _ = module.exports = {}
 
 _.cssLoader = config.cssModules ?
-  'css-loader?-autoprefixer&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]' :
-  'css-loader?-autoprefixer'
+  'css?-autoprefixer&modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]' :
+  'css?-autoprefixer'
 
 _.outputPath = config.electron ?
   path.join(__dirname, '../app/dist') :

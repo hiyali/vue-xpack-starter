@@ -1,7 +1,7 @@
 {
   "name": "vue-xpack-starter",
   "version": "0.1.0",
-  "description": "Vue Vuex Vue-router Webpack Stylus ES6",
+  "description": "Vue Vuex Vue-router Vue-resource Mint-ui Webpack Stylus ES6",
   "main": "client/index.js",
   "scripts": {
     "test": "echo Need you write.",
@@ -11,6 +11,7 @@
   "author": "Salam Hiyali",
   "license": "MIT",
   "dependencies": {
+    "mint-ui": "^2.0.5",
     "pinkie-promise": "^2.0.1",
     "vue": "^2.1.0",
     "vue-resource": "^1.0.3",

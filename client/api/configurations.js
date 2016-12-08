@@ -5,9 +5,10 @@ Vue.http.options.timeout = 10 * 1000 // ten seconds
 Vue.http.headers.common['version'] = 'v1'
 
 Vue.http.interceptors.push((request, next) => {
-  console.log('spinner start')
+  // Indicator.open()
   next((response) => {
-    console.log(`spinner stop , ${response.status}`)
+    console.log(`request done, ${response.status}`)
+    // Indicator.close()
 
     if(response.ok){
       console.log(`success handler`)
