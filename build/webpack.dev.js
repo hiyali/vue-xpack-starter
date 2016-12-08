@@ -15,8 +15,8 @@ base.plugins.push(
 // push loader for .css file
 base.module.loaders.push(
   {
-    test: '/\.css$/',
-    loader: `style!${_.cssLoader}!stylus!postcss!` //
+    test: /\.css$/,
+    loader: ["style-loader", _.cssLoader, "postcss-loader"]
   }
 )
 

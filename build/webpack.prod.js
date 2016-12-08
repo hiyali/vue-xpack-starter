@@ -52,7 +52,7 @@ base.plugins.push(
 base.module.loaders.push({
   test: /\.css$/,
   loader: ExtractTextPlugin.extract({
-    loader: [_.cssLoader, 'postcss-loader', 'stylus-loader'],
+    loader: [_.cssLoader, 'postcss-loader'],
     fallbackLoader: 'style-loader'
   })
 })
