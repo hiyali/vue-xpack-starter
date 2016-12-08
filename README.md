@@ -1,6 +1,6 @@
 # vue-xpack-starter
 A vue webpack starter.
-It has: Vue / Vuex / Vue-router / Webpack / ES6 / PostCSS + Stylus
+It has: Vue / Vuex / Vue-router / Vue-resource / Webpack / ES6 / PostCSS + Stylus
 > enjoy
 
 ## usage
