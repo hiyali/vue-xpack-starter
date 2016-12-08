@@ -23,7 +23,7 @@ export default {
   methods: {
     getIndexData(){
       API.indexPage.get({id: 1}).then( (res) => {
-        console.log(res)
+        console.info(res)
       }, (err) => {
         console.warn(err)
       })
