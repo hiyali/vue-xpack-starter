@@ -6,15 +6,18 @@ It has: Vue 2 / Vuex / Vue-router / Vue-resource / Mint-UI / Webpack / ES6 / Pos
 ## usage
 // start
 ```bash
-$ npm i ```
+$ npm i
+```
 
 // develop
 ```bash
-$ npm run dev ```
+$ npm run dev
+```
 
 // for production
 ```bash
-$ npm run build ```
+$ npm run build
+```
 
 
 ## folders
