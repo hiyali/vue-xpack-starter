@@ -28,7 +28,9 @@ $ npm run build
   * /router : Router and hooks (like before each route callback, global error handling)
   * /store : Global state management (has actions, mutations ...)
 
-* /build : config for webpack, hot reload, index template etc...
+* /build : Config for webpack, hot reload, index template etc...
+
+* /test : Karma config for unit test and unit test files...
 
 ## desctiprion
 You can just remove about mint-ui codes and packages, If you don't want use it.
