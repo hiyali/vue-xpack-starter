@@ -10,7 +10,8 @@ module.exports = {
     client: './client/index.js'
   },
   output: {
-    path: _.outputPath,
+    htmlPath: _.outputPath,
+    path: _.outputPath + '/assets',
     filename: '[name].js',
     publicPath: '/'
   },

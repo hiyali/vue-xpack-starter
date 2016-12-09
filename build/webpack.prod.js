@@ -22,6 +22,8 @@ if (config.electron) {
 base.entry.vendor = config.vendor
 // use hash filename to support long-term caching
 base.output.filename = '[name].[chunkhash:8].js'
+// right way to set public path
+base.output.publicPath = './assets'
 // add webpack plugins
 base.plugins.push(
   new ProgressBarPlugin(),
