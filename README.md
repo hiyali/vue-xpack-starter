@@ -4,26 +4,17 @@ It has: Vue 2 / Vuex / Vue-router / Vue-resource / Mint-UI / Webpack / ES6 / Pos
 > enjoy
 
 ## usage
-```javascript
 // start
-```
 ```bash
-$ npm i
-```
+$ npm i ```
 
-```javascript
 // develop
-```
 ```bash
-$ npm run dev
-```
+$ npm run dev ```
 
-```javascript
 // for production
-```
 ```bash
-$ npm run build
-```
+$ npm run build ```
 
 
 ## folders
