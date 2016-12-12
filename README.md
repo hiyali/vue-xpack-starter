@@ -4,26 +4,13 @@ It has: Vue 2 / Vuex / Vue-router / Vue-resource / Mint-UI / Webpack / ES6 / Pos
 > enjoy
 
 ## usage
-// install
-```bash
-$ npm i
-```
 
-// develop
 ```bash
-$ npm run dev
+$ npm i # install
+$ npm run dev # develop
+$ npm run test[ing] # test or watch test
+$ npm run build # production
 ```
-
-// test
-```bash
-$ npm run test[ing]
-```
-
-// production
-```bash
-$ npm run build
-```
-
 
 ## folders
 * /client : Source code files
