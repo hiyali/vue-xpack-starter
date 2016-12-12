@@ -1,26 +1,18 @@
-import test from 'ava'
-import assert from 'assert'
-const safeEval = require('safe-eval')
+// import { Home } from './../../../../client/pages/Home.vue'
 
-test('assert true', t => {
-    assert(true)
-})
+describe("pages/Home.vue", function() {
+  // var c = require('./../../../resources/assets/js/components/Alert.vue');
 
-function evalMacro(t, input, expected) {
-    t.is(eval(input), expected)
-}
+  let h = () => {
 
-function safeEvalMacro(t, input, expected) {
-    t.is(safeEval(input), expected)
-}
+  }
+  it('should have data', function () {
+    expect(typeof h).toBe('function')
+  })
 
-test('eval test', [evalMacro, safeEvalMacro], '2 + 2', 4)
+  it('should be visible', function () {
+    expect(!false).toBe(true)
+  })
 
-test('promise test', t => {
-    t.plan(1)
-
-    return Promise.resolve(3).then(n => {
-        t.is(n, 3)
-    })
 })
 

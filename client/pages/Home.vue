@@ -7,9 +7,8 @@
   </div>
 </template>
 
-<script>
+<script type="text/x-template">
 import { Counter } from '../components'
-
 export default {
   components: {
     Counter

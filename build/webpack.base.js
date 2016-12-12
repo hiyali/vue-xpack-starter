@@ -30,9 +30,18 @@ module.exports = {
       },
       {
         test: /\.js$/,
+        loader: 'babel-loader',
+        include: [
+          path.join(__dirname, 'app'),
+          path.join(__dirname, 'test')
+        ],
+        exclude: path.join(__dirname, 'node_modules')
+      },
+      /*{
+        test: /\.js$/,
         loaders: ['babel'],
         exclude: [/node_modules/]
-      },
+      }, // */
       {
         test: /\.es6$/,
         loaders: ['babel']
