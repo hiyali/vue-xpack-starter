@@ -1,6 +1,10 @@
 import test from 'ava'
 import assert from 'assert'
-const safeEval = require('safe-eval')
+import safeEval from 'safe-eval'
+
+import store from '../../../client/store/actions.js'
+
+console.log(store)
 
 test('assert true', t => {
     assert(true)

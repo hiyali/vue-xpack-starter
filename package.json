@@ -1,4 +1,11 @@
 {
+  "ava": {
+    "require": "babel-register",
+    "babel": "inherit"
+  },
+   "babel": {
+    "presets": ["es2015-node4", "vue"]
+  },
   "name": "vue-xpack-starter",
   "version": "0.1.0",
   "description": "Vue Vuex Vue-router Vue-resource Mint-ui Webpack Stylus ES6",
