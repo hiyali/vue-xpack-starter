@@ -14,6 +14,11 @@ $ npm i
 $ npm run dev
 ```
 
+// test
+```bash
+$ npm run test
+```
+
 // for production
 ```bash
 $ npm run build
@@ -36,13 +41,14 @@ $ npm run build
 You can just remove about mint-ui codes and packages, If you don't want use it.
 
 ## some links for project
-1. vue:
+* vue:
   * https://cn.vuejs.org/v2/guide
   * https://github.com/vuejs
-2. vue-router: http://router.vuejs.org
-3. vue-resource: https://github.com/pagekit/vue-resource
-4. stylus: http://stylus-lang.com
-5. mint-ui: http://mint-ui.github.io
-6. ava: https://github.com/avajs/ava
+* vuex: https://vuex.vuejs.org
+* vue-router: http://router.vuejs.org
+* vue-resource: https://github.com/pagekit/vue-resource
+* stylus: http://stylus-lang.com
+* mint-ui: http://mint-ui.github.io
+* ava: https://github.com/avajs/ava
 
 
