@@ -1,7 +1,26 @@
-// 定义一类测试用例
-describe('test', function () {
-    // 单个测试用例定义
-    it('test hello world', function () {
-        expect('hello world').to.equal('hello world') //断言
+import test from 'ava'
+import assert from 'assert'
+const safeEval = require('safe-eval')
+
+test('assert true', t => {
+    assert(true)
+})
+
+function evalMacro(t, input, expected) {
+    t.is(eval(input), expected)
+}
+
+function safeEvalMacro(t, input, expected) {
+    t.is(safeEval(input), expected)
+}
+
+test('eval test', [evalMacro, safeEvalMacro], '2 + 2', 4)
+
+test('promise test', t => {
+    t.plan(1)
+
+    return Promise.resolve(3).then(n => {
+        t.is(n, 3)
     })
-});
+})
+

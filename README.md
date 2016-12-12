@@ -30,7 +30,7 @@ $ npm run build
 
 * /build : Config for webpack, hot reload, index template etc...
 
-* /test : Karma config for unit test and unit test files...
+* /test : Unit test files from ava...
 
 ## desctiprion
 You can just remove about mint-ui codes and packages, If you don't want use it.
@@ -43,5 +43,6 @@ You can just remove about mint-ui codes and packages, If you don't want use it.
 3. vue-resource: https://github.com/pagekit/vue-resource
 4. stylus: http://stylus-lang.com
 5. mint-ui: http://mint-ui.github.io
+6. ava: https://github.com/avajs/ava
 
 
