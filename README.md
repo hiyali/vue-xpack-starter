@@ -4,7 +4,7 @@ It has: Vue 2 / Vuex / Vue-router / Vue-resource / Mint-UI / Webpack / ES6 / Pos
 > enjoy
 
 ## usage
-// start
+// install
 ```bash
 $ npm i
 ```
@@ -19,7 +19,7 @@ $ npm run dev
 $ npm run test[ing]
 ```
 
-// for production
+// production
 ```bash
 $ npm run build
 ```
