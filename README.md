@@ -16,7 +16,7 @@ $ npm run dev
 
 // test
 ```bash
-$ npm run test
+$ npm run test[ing]
 ```
 
 // for production
